@@ -29,8 +29,8 @@ jobs:
     - name: Run fetch_actual.py
       run: python scripts/fetch_actual.py
 
-    - name: Run fetch_forecast_D1.py
-      run: python scripts/fetch_forecast_D1.py
+    - name: Run fetch_forecast.py
+      run: python scripts/fetch_forecast.py
 
     - name: Run parse_actual.py
       run: python scripts/parse_actual.py
