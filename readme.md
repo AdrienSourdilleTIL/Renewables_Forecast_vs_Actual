@@ -11,11 +11,12 @@ We collect raw data daily from **RTE (Réseau de Transport d'Électricité)** us
 1. One to retrieve **forecast values**
 2. One to retrieve **actual production values**
 
-These values are stored in standardized **Common Data Model (CDM)** tables. Each day, a new CDM table is added.
+These values are stored in **Raw** tables.
+Then, these tables are parsed and processed into **Base** before finally being aggregated into the **CDM** (common data model) layer.
+One new CDM file is hence created every day.
 
-The data is then:
-- Cleaned and aggregated using Python
-- Used to generate a series of insightful visualizations
+The files in the CDM are then used to generate a series of insightful visualizations that are embedded in this readme daily.
+The graphs presented below are therfore up to date and show the accuracy of renewable energy production forecasts compared to actual production across various sources (solar, wind, etc.) in France.
 
 ---
 
@@ -23,7 +24,7 @@ The data is then:
 
 ### 1. Total Forecast vs Actual (MW)
 
-![Total Forecast vs Actual](charts/total_forecast_vs_actual.png)
+![Total Forecast vs Actual](charts/total_renewables_forecast_vs_actual.png)
 
 Compares the total forecasted renewable production against the actual production over time.
 
