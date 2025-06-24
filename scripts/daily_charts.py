@@ -4,24 +4,24 @@ from pathlib import Path
 from matplotlib.dates import DateFormatter
 import numpy as np
 
-def load_and_merge_cdm_files(cdm_dir):
+def load_latest_cdm_file(cdm_dir):
     csv_files = list(cdm_dir.glob("*.csv"))
     if not csv_files:
         raise FileNotFoundError("No CDM CSV files found.")
 
-    df_list = []
-    for f in csv_files:
-        df = pd.read_csv(f, parse_dates=["start_date"])
-        if not {"start_date", "production_type", "forecast_value", "actual_value"}.issubset(df.columns):
-            print(f"⚠️ Skipping {f.name}: missing required columns.")
-            continue
-        df_list.append(df)
+    # Find the latest file by modification time
+    latest_file = max(csv_files, key=lambda f: f.stat().st_mtime)
+    print(f"📄 Loading latest file: {latest_file.name}")
 
-    combined_df = pd.concat(df_list, ignore_index=True)
-    combined_df.sort_values("start_date", inplace=True)
-    combined_df = combined_df.drop_duplicates(subset=["start_date", "production_type"], keep="last")
+    df = pd.read_csv(latest_file, parse_dates=["start_date"])
+    required_cols = {"start_date", "production_type", "forecast_value", "actual_value"}
+    if not required_cols.issubset(df.columns):
+        raise ValueError(f"File {latest_file.name} is missing required columns: {required_cols - set(df.columns)}")
 
-    return combined_df
+    df.sort_values("start_date", inplace=True)
+    df = df.drop_duplicates(subset=["start_date", "production_type"], keep="last")
+
+    return df
 
 def plot_forecast_vs_actual(df, output_dir):
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -122,7 +122,7 @@ if __name__ == "__main__":
     cdm_dir = base_path / "data" / "CDM"
     chart_dir = base_path / "charts"
 
-    df = load_and_merge_cdm_files(cdm_dir)
+    df = load_latest_cdm_file(cdm_dir)
     plot_forecast_vs_actual(df, chart_dir)
     plot_total_renewables(df, chart_dir)
     plot_forecast_error_over_time(df, chart_dir)
