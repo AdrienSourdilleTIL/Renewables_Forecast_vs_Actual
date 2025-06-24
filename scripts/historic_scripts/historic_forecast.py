@@ -24,21 +24,17 @@ def get_token():
     else:
         raise Exception(f"Token request failed with status {response.status_code}")
 
-def get_forecast_for_day(token, date):
+def get_forecast_data_for_day(token, date):
     headers = {
         'Authorization': f'Bearer {token}',
         'Accept': 'application/json',
-        'Content-Type': 'application/json'
     }
-
-    # UTC 00:00 on date to UTC 00:00 next day (or slightly beyond)
-    start_date = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0) + timedelta(days=-1)
-    end_date = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0) + timedelta(days=1)
+    start_date = date.replace(hour=0, minute=0, second=0, microsecond=0, tzinfo=timezone.utc) + timedelta(days=-1)
+    end_date = start_date + timedelta(days=2)
 
     params = {
         'start_date': start_date.isoformat(),
         'end_date': end_date.isoformat(),
-        'type': 'D-1'
     }
 
     response = requests.get(FORECAST_API_URL, headers=headers, params=params)
@@ -50,17 +46,17 @@ def get_forecast_for_day(token, date):
 if __name__ == "__main__":
     token = get_token()
 
-    base_path = Path(__file__).resolve().parent.parent
+    base_path = Path(__file__).resolve().parent.parent.parent
     forecast_dir = base_path / "data" / "Raw" / "Forecast"
     forecast_dir.mkdir(parents=True, exist_ok=True)
 
     current_date = datetime(2025, 1, 1)
-    end_date = datetime(2025, 6, 24)  # exclusive
+    end_date = datetime(2025, 6, 24)  # exclusive upper bound
 
     while current_date < end_date:
         try:
-            print(f"Fetching forecast for {current_date.strftime('%Y-%m-%d')}")
-            forecast_data = get_forecast_for_day(token, current_date)
+            print(f"Fetching forecast data for {current_date.strftime('%Y-%m-%d')}")
+            forecast_data = get_forecast_data_for_day(token, current_date)
             output_path = forecast_dir / f"forecast_{current_date.strftime('%Y-%m-%d')}.json"
             with open(output_path, 'w', encoding='utf-8') as f:
                 json.dump(forecast_data, f, ensure_ascii=False, indent=2)

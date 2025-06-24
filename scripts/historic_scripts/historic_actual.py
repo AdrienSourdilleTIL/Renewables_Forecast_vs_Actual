@@ -29,8 +29,9 @@ def get_actual_data_for_day(token, date):
         'Authorization': f'Bearer {token}',
         'Accept': 'application/json',
     }
-    start_date = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0) + timedelta(days=-1)
-    end_date = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0) + timedelta(days=1)
+    # Use the date parameter for start and end dates, covering exactly one day
+    start_date = date.replace(hour=0, minute=0, second=0, microsecond=0, tzinfo=timezone.utc) + timedelta(days=-1)
+    end_date = start_date + timedelta(days=2)
 
     params = {
         'start_date': start_date.isoformat(),
@@ -46,7 +47,7 @@ def get_actual_data_for_day(token, date):
 if __name__ == "__main__":
     token = get_token()
 
-    base_path = Path(__file__).resolve().parent.parent
+    base_path = Path(__file__).resolve().parent.parent.parent
     actual_dir = base_path / "data" / "Raw" / "Actual"
     actual_dir.mkdir(parents=True, exist_ok=True)
 
