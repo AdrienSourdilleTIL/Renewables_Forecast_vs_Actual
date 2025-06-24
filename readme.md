@@ -85,7 +85,7 @@ Install them with:
 
 ```bash
 pip install -r requirements.txt
-
+```
 ---
 
 ## 📄 RTE API Documentation
