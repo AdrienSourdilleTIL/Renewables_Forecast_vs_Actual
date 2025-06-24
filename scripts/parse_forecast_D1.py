@@ -47,8 +47,8 @@ if __name__ == "__main__":
         print(f'latest_file: {latest_file}')
 
     mapping = {
-        'WIND_OFFSHORE': base_path / "data" / "Base" / "wind" / "offshore" / "forecast",
-        'WIND_ONSHORE': base_path / "data" / "Base" / "wind" / "onshore" / "forecast",
+        'WIND_OFFSHORE': base_path / "data" / "Base" / "wind_offshore" / "forecast",
+        'WIND_ONSHORE': base_path / "data" / "Base" / "wind_onshore" / "forecast",
         'SOLAR': base_path / "data" / "Base" / "solar" / "forecast"
     }
 

@@ -46,8 +46,8 @@ if __name__ == "__main__":
         print(f'latest_file: {latest_file}')
 
     mapping = {
-        'WIND_OFFSHORE': base_path / "data" / "Base" / "wind" / "offshore" / "actual",
-        'WIND_ONSHORE': base_path / "data" / "Base" / "wind" / "onshore" / "actual",
+        'WIND_OFFSHORE': base_path / "data" / "Base" / "wind_offshore" / "actual",
+        'WIND_ONSHORE': base_path / "data" / "Base" / "wind_onshore" / "actual",
         'SOLAR': base_path / "data" / "Base" / "solar" / "actual",
         # Add other production types as needed
     }
