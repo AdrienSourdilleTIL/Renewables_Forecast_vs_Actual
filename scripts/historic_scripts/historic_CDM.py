@@ -46,7 +46,7 @@ def combine_forecast_actual(date_str, base_path):
         print(f"[!] No combined data for {date_str}")
 
 if __name__ == "__main__":
-    base_path = Path(__file__).resolve().parent.parent
+    base_path = Path(__file__).resolve().parent.parent.parent
     sample_base = base_path / "data" / "Base" / "wind_onshore" / "forecast"
 
     # Get all unique dates from wind_onshore forecast files

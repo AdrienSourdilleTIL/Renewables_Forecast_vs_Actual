@@ -23,7 +23,7 @@ def extract_and_save_actual(data, production_type, output_dir, date_str):
             json.dump(filtered_entries, f, ensure_ascii=False, indent=2)
 
 if __name__ == "__main__":
-    base_path = Path(__file__).resolve().parent.parent
+    base_path = Path(__file__).resolve().parent.parent.parent
     raw_dir = base_path / "data" / "Raw" / "Actual"
 
     mapping = {
