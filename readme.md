@@ -34,7 +34,7 @@ Compares the total forecasted renewable production against the actual production
 
 ![Total Forecast vs Actual](charts/solar_forecast_vs_actual.png)
 
-Compares the total forecasted renewable production against the actual production over time.
+Compares the solar forecasted renewable production against the actual production over time.
 
 ---
 
@@ -42,7 +42,7 @@ Compares the total forecasted renewable production against the actual production
 
 ![Total Forecast vs Actual](charts/wind_offshore_forecast_vs_actual.png)
 
-Compares the total forecasted renewable production against the actual production over time.
+Compares the offshore wind forecasted renewable production against the actual production over time.
 
 ---
 
@@ -50,7 +50,7 @@ Compares the total forecasted renewable production against the actual production
 
 ![Total Forecast vs Actual](charts/wind_onshore_forecast_vs_actual.png)
 
-Compares the total forecasted renewable production against the actual production over time.
+Compares the onshore wind forecasted renewable production against the actual production over time.
 
 ---
 
