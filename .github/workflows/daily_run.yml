@@ -8,6 +8,9 @@ on:
 jobs:
   run_pipeline:
     runs-on: ubuntu-latest
+    env:
+      CLIENT_ID: ${{ secrets.CLIENT_ID }}
+      SECRET_ID: ${{ secrets.SECRET_ID }}
 
     steps:
     - name: Checkout repo
