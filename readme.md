@@ -30,7 +30,31 @@ Compares the total forecasted renewable production against the actual production
 
 ---
 
-### 2. Forecast Error Over Time (MW)
+### 2. Solar Forecast vs Actual (MW)
+
+![Total Forecast vs Actual](charts/solar_forecast_vs_actual.png)
+
+Compares the total forecasted renewable production against the actual production over time.
+
+---
+
+### 3. OffShore Wind Forecast vs Actual (MW)
+
+![Total Forecast vs Actual](charts/wind_offshore_forecast_vs_actual.png)
+
+Compares the total forecasted renewable production against the actual production over time.
+
+---
+
+### 4. OnShore Wind Forecast vs Actual (MW)
+
+![Total Forecast vs Actual](charts/wind_onshore_forecast_vs_actual.png)
+
+Compares the total forecasted renewable production against the actual production over time.
+
+---
+
+### 5. Forecast Error Over Time (MW)
 
 ![Forecast Error Over Time](charts/forecast_error_over_time.png)
 
@@ -40,33 +64,9 @@ Labels show the MW delta for each day.
 
 ---
 
-### 3. Forecast vs Actual by Production Type
-
-![Forecast vs Actual by Production Type](charts/forecast_vs_actual_by_type.png)
-
-Displays forecast vs actual production for each renewable source type over time.
-
----
-
-### 4. Average Forecast Error by Hour
-
-![Forecast Error by Hour](charts/forecast_error_by_hour.png)
-
-Shows the average percentage error by hour of day, aggregated across all available dates.
-
----
-
-### 5. Forecast Bias by Production Type
-
-![Forecast Bias](charts/forecast_bias_by_type.png)
-
-Visualizes which sources are consistently over- or under-forecasted on average.
-
----
-
 ## 🗃️ Data
 
-Each row in the processed dataset includes:
+Each row in the CDM files includes:
 - `start_date`
 - `forecast_value`
 - `actual_value`
@@ -85,3 +85,13 @@ Install them with:
 
 ```bash
 pip install -r requirements.txt
+
+---
+
+## 📄 RTE API Documentation
+
+- ⚡ [RTE Open Data Portal](https://data.rte-france.com/)
+- 📘 [API Docs - Actual Generation per Production Type](https://data.rte-france.com/catalog/-/api-doc/Actual%20generation%20per%20production%20type)
+- 📘 [API Docs - Generation Forecast](https://data.rte-france.com/catalog/-/api-doc/Generation%20forecast)
+
+To access the APIs, you must register for an API key on the RTE Open Data portal.
