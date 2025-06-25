@@ -4,7 +4,7 @@ This project analyzes and visualizes the accuracy of renewable energy forecasts 
 
 ---
 [Tableau Public Visualisation of Historical data](https://public.tableau.com/views/RenewableProductionOverviewForecastedvsActualProduction/RenewableProductionOverview?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-![Forecast vs Actual Renewable Energy Production](charts/Forecast vs Actual Renewable Energy Production.png)
+![Forecast vs Actual Renewable Energy Production](charts/Renewable-Production-Overview.png)
 ## 🔗 Data Pipeline
 
 We collect raw data daily from **RTE (Réseau de Transport d'Électricité)** using **two API calls**:
