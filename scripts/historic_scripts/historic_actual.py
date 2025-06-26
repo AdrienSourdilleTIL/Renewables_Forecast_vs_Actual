@@ -51,8 +51,8 @@ if __name__ == "__main__":
     actual_dir = base_path / "data" / "Raw" / "Actual"
     actual_dir.mkdir(parents=True, exist_ok=True)
 
-    current_date = datetime(2025, 1, 1)
-    end_date = datetime(2025, 6, 24)  # exclusive upper bound
+    current_date = datetime(2025, 6, 24)
+    end_date = datetime(2025, 6, 26)  # exclusive upper bound
 
     while current_date < end_date:
         try:

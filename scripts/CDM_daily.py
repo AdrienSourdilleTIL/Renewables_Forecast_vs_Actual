@@ -49,7 +49,7 @@ def combine_forecast_actual(date_str, base_path):
     # Save combined CSV
     output_dir = base_path / "data" / "CDM"
     output_dir.mkdir(parents=True, exist_ok=True)
-    output_file = output_dir / f"combined_forecast_actual_{date_str}.csv"
+    output_file = output_dir / f"combined_forecast_actual_2025-06-24.csv"
     combined_all.to_csv(output_file, index=False)
     print(f"Combined file saved to {output_file}")
 

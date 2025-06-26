@@ -29,8 +29,8 @@ def get_renewable_actual(token):
         'Authorization': f'Bearer {token}',
         'Accept': 'application/json',
     }
-    start_date = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0) + timedelta(days=-1)
-    end_date = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0) + timedelta(days=1)
+    start_date = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0) + timedelta(days=-2)
+    end_date = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0) + timedelta(days=0)
 
     params = {
         'start_date': start_date.isoformat(),
@@ -52,7 +52,7 @@ if __name__ == "__main__":
     actual_dir.mkdir(parents=True, exist_ok=True)
 
     date_str = datetime.now().strftime("%Y-%m-%d")
-    output_path = actual_dir / f"actual_{date_str}.json"
+    output_path = actual_dir / f"actual_2025-06-25.json"
 
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(actual_data, f, ensure_ascii=False, indent=2)
