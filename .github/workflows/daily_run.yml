@@ -44,6 +44,9 @@ jobs:
       - name: Run CDM_daily.py
         run: python scripts/CDM_daily.py
 
+      - name: Run daily_charts.py
+        run: python scripts/daily_charts.py
+
       - name: Commit and push updated charts and README
         run: |
           git config user.name "github-actions[bot]"
