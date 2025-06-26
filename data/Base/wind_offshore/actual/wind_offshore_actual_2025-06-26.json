@@ -61,5 +61,12 @@
     "updated_date": "2025-06-26T07:35:59+02:00",
     "value": 525,
     "production_type": "WIND_OFFSHORE"
+  },
+  {
+    "start_date": "2025-06-26T09:00:00+02:00",
+    "end_date": "2025-06-26T10:00:00+02:00",
+    "updated_date": "2025-06-26T08:35:59+02:00",
+    "value": 622,
+    "production_type": "WIND_OFFSHORE"
   }
 ]
