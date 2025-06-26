@@ -47,6 +47,9 @@ jobs:
       - name: Run daily_charts.py
         run: python scripts/daily_charts.py
 
+      - name: Run update_readme.py
+        run: python scripts/update_readme.py
+
       - name: Commit and push updated charts and README
         run: |
           git config user.name "github-actions[bot]"

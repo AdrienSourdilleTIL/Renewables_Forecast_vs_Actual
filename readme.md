@@ -27,7 +27,7 @@ The graphs presented below are therfore up to date and show the accuracy of rene
 
 ### 1. Total Forecast vs Actual (MW)
 
-![Total Forecast vs Actual](charts/total_renewables_forecast_vs_actual.png)
+![Total Forecast vs Actual](charts/total_renewables_forecast_vs_actual.png?v={{TODAY}})
 
 Compares the total forecasted renewable production against the actual production over time.
 
@@ -35,7 +35,7 @@ Compares the total forecasted renewable production against the actual production
 
 ### 2. Solar Forecast vs Actual (MW)
 
-![Total Forecast vs Actual](charts/solar_forecast_vs_actual.png)
+![Total Forecast vs Actual](charts/solar_forecast_vs_actual.png?v={{TODAY}})
 
 Compares the solar forecasted renewable production against the actual production over time.
 
@@ -43,7 +43,7 @@ Compares the solar forecasted renewable production against the actual production
 
 ### 3. OffShore Wind Forecast vs Actual (MW)
 
-![Total Forecast vs Actual](charts/wind_offshore_forecast_vs_actual.png)
+![Total Forecast vs Actual](charts/wind_offshore_forecast_vs_actual.png?v={{TODAY}})
 
 Compares the offshore wind forecasted renewable production against the actual production over time.
 
@@ -51,7 +51,7 @@ Compares the offshore wind forecasted renewable production against the actual pr
 
 ### 4. OnShore Wind Forecast vs Actual (MW)
 
-![Total Forecast vs Actual](charts/wind_onshore_forecast_vs_actual.png)
+![Total Forecast vs Actual](charts/wind_onshore_forecast_vs_actual.png?v={{TODAY}})
 
 Compares the onshore wind forecasted renewable production against the actual production over time.
 
@@ -59,7 +59,7 @@ Compares the onshore wind forecasted renewable production against the actual pro
 
 ### 5. Forecast Error Over Time (MW)
 
-![Forecast Error Over Time](charts/forecast_error_over_time.png)
+![Forecast Error Over Time](charts/forecast_error_over_time.png?v={{TODAY}})
 
 Shows when production was over- or under-estimated.  
 **Green = overproduction**, **Red = underproduction**.  
