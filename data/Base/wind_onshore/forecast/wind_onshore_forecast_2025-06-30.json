@@ -1,170 +1,506 @@
 [
   {
-    "start_date": "2025-06-26T00:00:00+02:00",
-    "end_date": "2025-06-26T01:00:00+02:00",
-    "updated_date": "2025-06-25T17:07:00+02:00",
-    "value": 3015.09,
+    "start_date": "2025-06-30T00:00:00+02:00",
+    "end_date": "2025-06-30T01:00:00+02:00",
+    "updated_date": "2025-06-29T17:06:00+02:00",
+    "value": 4424.36,
     "production_type": "WIND_ONSHORE"
   },
   {
-    "start_date": "2025-06-26T01:00:00+02:00",
-    "end_date": "2025-06-26T02:00:00+02:00",
-    "updated_date": "2025-06-25T17:07:00+02:00",
-    "value": 3418.8,
+    "start_date": "2025-06-30T01:00:00+02:00",
+    "end_date": "2025-06-30T02:00:00+02:00",
+    "updated_date": "2025-06-29T17:06:00+02:00",
+    "value": 4461.05,
     "production_type": "WIND_ONSHORE"
   },
   {
-    "start_date": "2025-06-26T02:00:00+02:00",
-    "end_date": "2025-06-26T03:00:00+02:00",
-    "updated_date": "2025-06-25T17:07:00+02:00",
-    "value": 4257.12,
+    "start_date": "2025-06-30T02:00:00+02:00",
+    "end_date": "2025-06-30T03:00:00+02:00",
+    "updated_date": "2025-06-29T17:06:00+02:00",
+    "value": 4231.59,
     "production_type": "WIND_ONSHORE"
   },
   {
-    "start_date": "2025-06-26T03:00:00+02:00",
-    "end_date": "2025-06-26T04:00:00+02:00",
-    "updated_date": "2025-06-25T17:07:00+02:00",
-    "value": 5399.25,
+    "start_date": "2025-06-30T03:00:00+02:00",
+    "end_date": "2025-06-30T04:00:00+02:00",
+    "updated_date": "2025-06-29T17:06:00+02:00",
+    "value": 3947.04,
     "production_type": "WIND_ONSHORE"
   },
   {
-    "start_date": "2025-06-26T04:00:00+02:00",
-    "end_date": "2025-06-26T05:00:00+02:00",
-    "updated_date": "2025-06-25T17:07:00+02:00",
-    "value": 5673.84,
+    "start_date": "2025-06-30T04:00:00+02:00",
+    "end_date": "2025-06-30T05:00:00+02:00",
+    "updated_date": "2025-06-29T17:06:00+02:00",
+    "value": 3665.18,
     "production_type": "WIND_ONSHORE"
   },
   {
-    "start_date": "2025-06-26T05:00:00+02:00",
-    "end_date": "2025-06-26T06:00:00+02:00",
-    "updated_date": "2025-06-25T17:07:00+02:00",
-    "value": 6082.96,
+    "start_date": "2025-06-30T05:00:00+02:00",
+    "end_date": "2025-06-30T06:00:00+02:00",
+    "updated_date": "2025-06-29T17:06:00+02:00",
+    "value": 3510.23,
     "production_type": "WIND_ONSHORE"
   },
   {
-    "start_date": "2025-06-26T06:00:00+02:00",
-    "end_date": "2025-06-26T07:00:00+02:00",
-    "updated_date": "2025-06-25T17:07:00+02:00",
-    "value": 6974.59,
+    "start_date": "2025-06-30T06:00:00+02:00",
+    "end_date": "2025-06-30T07:00:00+02:00",
+    "updated_date": "2025-06-29T17:06:00+02:00",
+    "value": 3350.01,
     "production_type": "WIND_ONSHORE"
   },
   {
-    "start_date": "2025-06-26T07:00:00+02:00",
-    "end_date": "2025-06-26T08:00:00+02:00",
-    "updated_date": "2025-06-25T17:07:00+02:00",
-    "value": 6991.83,
+    "start_date": "2025-06-30T07:00:00+02:00",
+    "end_date": "2025-06-30T08:00:00+02:00",
+    "updated_date": "2025-06-29T17:06:00+02:00",
+    "value": 2954.01,
     "production_type": "WIND_ONSHORE"
   },
   {
-    "start_date": "2025-06-26T08:00:00+02:00",
-    "end_date": "2025-06-26T09:00:00+02:00",
-    "updated_date": "2025-06-25T17:07:00+02:00",
-    "value": 7313.51,
+    "start_date": "2025-06-30T08:00:00+02:00",
+    "end_date": "2025-06-30T09:00:00+02:00",
+    "updated_date": "2025-06-29T17:06:00+02:00",
+    "value": 2675.91,
     "production_type": "WIND_ONSHORE"
   },
   {
-    "start_date": "2025-06-26T09:00:00+02:00",
-    "end_date": "2025-06-26T10:00:00+02:00",
-    "updated_date": "2025-06-25T17:07:00+02:00",
-    "value": 7586.94,
+    "start_date": "2025-06-30T09:00:00+02:00",
+    "end_date": "2025-06-30T10:00:00+02:00",
+    "updated_date": "2025-06-29T17:06:00+02:00",
+    "value": 1182.69,
     "production_type": "WIND_ONSHORE"
   },
   {
-    "start_date": "2025-06-26T10:00:00+02:00",
-    "end_date": "2025-06-26T11:00:00+02:00",
-    "updated_date": "2025-06-25T17:07:00+02:00",
-    "value": 7845.87,
+    "start_date": "2025-06-30T10:00:00+02:00",
+    "end_date": "2025-06-30T11:00:00+02:00",
+    "updated_date": "2025-06-29T17:06:00+02:00",
+    "value": 788.93,
     "production_type": "WIND_ONSHORE"
   },
   {
-    "start_date": "2025-06-26T11:00:00+02:00",
-    "end_date": "2025-06-26T12:00:00+02:00",
-    "updated_date": "2025-06-25T17:07:00+02:00",
-    "value": 8715.44,
+    "start_date": "2025-06-30T11:00:00+02:00",
+    "end_date": "2025-06-30T12:00:00+02:00",
+    "updated_date": "2025-06-29T17:06:00+02:00",
+    "value": 665.27,
     "production_type": "WIND_ONSHORE"
   },
   {
-    "start_date": "2025-06-26T12:00:00+02:00",
-    "end_date": "2025-06-26T13:00:00+02:00",
-    "updated_date": "2025-06-25T17:07:00+02:00",
-    "value": 9621.6,
+    "start_date": "2025-06-30T12:00:00+02:00",
+    "end_date": "2025-06-30T13:00:00+02:00",
+    "updated_date": "2025-06-29T17:06:00+02:00",
+    "value": 602.02,
     "production_type": "WIND_ONSHORE"
   },
   {
-    "start_date": "2025-06-26T13:00:00+02:00",
-    "end_date": "2025-06-26T14:00:00+02:00",
-    "updated_date": "2025-06-25T17:07:00+02:00",
-    "value": 10277.37,
+    "start_date": "2025-06-30T13:00:00+02:00",
+    "end_date": "2025-06-30T14:00:00+02:00",
+    "updated_date": "2025-06-29T17:06:00+02:00",
+    "value": 593.1,
     "production_type": "WIND_ONSHORE"
   },
   {
-    "start_date": "2025-06-26T14:00:00+02:00",
-    "end_date": "2025-06-26T15:00:00+02:00",
-    "updated_date": "2025-06-25T17:07:00+02:00",
-    "value": 10581.28,
+    "start_date": "2025-06-30T14:00:00+02:00",
+    "end_date": "2025-06-30T15:00:00+02:00",
+    "updated_date": "2025-06-29T17:06:00+02:00",
+    "value": 646.25,
     "production_type": "WIND_ONSHORE"
   },
   {
-    "start_date": "2025-06-26T15:00:00+02:00",
-    "end_date": "2025-06-26T16:00:00+02:00",
-    "updated_date": "2025-06-25T17:07:00+02:00",
-    "value": 10877.28,
+    "start_date": "2025-06-30T15:00:00+02:00",
+    "end_date": "2025-06-30T16:00:00+02:00",
+    "updated_date": "2025-06-29T17:06:00+02:00",
+    "value": 747.15,
     "production_type": "WIND_ONSHORE"
   },
   {
-    "start_date": "2025-06-26T16:00:00+02:00",
-    "end_date": "2025-06-26T17:00:00+02:00",
-    "updated_date": "2025-06-25T17:07:00+02:00",
-    "value": 11142.97,
+    "start_date": "2025-06-30T16:00:00+02:00",
+    "end_date": "2025-06-30T17:00:00+02:00",
+    "updated_date": "2025-06-29T17:06:00+02:00",
+    "value": 804.66,
     "production_type": "WIND_ONSHORE"
   },
   {
-    "start_date": "2025-06-26T17:00:00+02:00",
-    "end_date": "2025-06-26T18:00:00+02:00",
-    "updated_date": "2025-06-25T17:07:00+02:00",
-    "value": 10812.73,
+    "start_date": "2025-06-30T17:00:00+02:00",
+    "end_date": "2025-06-30T18:00:00+02:00",
+    "updated_date": "2025-06-29T17:06:00+02:00",
+    "value": 816.23,
     "production_type": "WIND_ONSHORE"
   },
   {
-    "start_date": "2025-06-26T18:00:00+02:00",
-    "end_date": "2025-06-26T19:00:00+02:00",
-    "updated_date": "2025-06-25T17:07:00+02:00",
-    "value": 9911.56,
+    "start_date": "2025-06-30T18:00:00+02:00",
+    "end_date": "2025-06-30T19:00:00+02:00",
+    "updated_date": "2025-06-29T17:06:00+02:00",
+    "value": 716.6,
     "production_type": "WIND_ONSHORE"
   },
   {
-    "start_date": "2025-06-26T19:00:00+02:00",
-    "end_date": "2025-06-26T20:00:00+02:00",
-    "updated_date": "2025-06-25T17:07:00+02:00",
-    "value": 8608.59,
+    "start_date": "2025-06-30T19:00:00+02:00",
+    "end_date": "2025-06-30T20:00:00+02:00",
+    "updated_date": "2025-06-29T17:06:00+02:00",
+    "value": 786.72,
     "production_type": "WIND_ONSHORE"
   },
   {
-    "start_date": "2025-06-26T20:00:00+02:00",
-    "end_date": "2025-06-26T21:00:00+02:00",
-    "updated_date": "2025-06-25T17:07:00+02:00",
-    "value": 7298.48,
+    "start_date": "2025-06-30T20:00:00+02:00",
+    "end_date": "2025-06-30T21:00:00+02:00",
+    "updated_date": "2025-06-29T17:06:00+02:00",
+    "value": 935.9,
     "production_type": "WIND_ONSHORE"
   },
   {
-    "start_date": "2025-06-26T21:00:00+02:00",
-    "end_date": "2025-06-26T22:00:00+02:00",
-    "updated_date": "2025-06-25T17:07:00+02:00",
-    "value": 5994.41,
+    "start_date": "2025-06-30T21:00:00+02:00",
+    "end_date": "2025-06-30T22:00:00+02:00",
+    "updated_date": "2025-06-29T17:06:00+02:00",
+    "value": 1061.16,
     "production_type": "WIND_ONSHORE"
   },
   {
-    "start_date": "2025-06-26T22:00:00+02:00",
-    "end_date": "2025-06-26T23:00:00+02:00",
-    "updated_date": "2025-06-25T17:07:00+02:00",
-    "value": 5515.35,
+    "start_date": "2025-06-30T22:00:00+02:00",
+    "end_date": "2025-06-30T23:00:00+02:00",
+    "updated_date": "2025-06-29T17:06:00+02:00",
+    "value": 1502.84,
     "production_type": "WIND_ONSHORE"
   },
   {
-    "start_date": "2025-06-26T23:00:00+02:00",
-    "end_date": "2025-06-27T00:00:00+02:00",
-    "updated_date": "2025-06-25T17:07:00+02:00",
-    "value": 5597.91,
+    "start_date": "2025-06-30T23:00:00+02:00",
+    "end_date": "2025-07-01T00:00:00+02:00",
+    "updated_date": "2025-06-29T17:06:00+02:00",
+    "value": 1574.96,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T00:00:00+02:00",
+    "end_date": "2025-06-30T01:00:00+02:00",
+    "updated_date": "2025-06-29T19:41:00+02:00",
+    "value": 4430.62,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T01:00:00+02:00",
+    "end_date": "2025-06-30T02:00:00+02:00",
+    "updated_date": "2025-06-29T19:41:00+02:00",
+    "value": 4469.32,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T02:00:00+02:00",
+    "end_date": "2025-06-30T03:00:00+02:00",
+    "updated_date": "2025-06-29T19:41:00+02:00",
+    "value": 4240.41,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T03:00:00+02:00",
+    "end_date": "2025-06-30T04:00:00+02:00",
+    "updated_date": "2025-06-29T19:41:00+02:00",
+    "value": 3956.07,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T04:00:00+02:00",
+    "end_date": "2025-06-30T05:00:00+02:00",
+    "updated_date": "2025-06-29T19:41:00+02:00",
+    "value": 3675.06,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T05:00:00+02:00",
+    "end_date": "2025-06-30T06:00:00+02:00",
+    "updated_date": "2025-06-29T19:41:00+02:00",
+    "value": 3521.41,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T06:00:00+02:00",
+    "end_date": "2025-06-30T07:00:00+02:00",
+    "updated_date": "2025-06-29T19:41:00+02:00",
+    "value": 3361.05,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T07:00:00+02:00",
+    "end_date": "2025-06-30T08:00:00+02:00",
+    "updated_date": "2025-06-30T08:06:00+02:00",
+    "value": 3473.61,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T08:00:00+02:00",
+    "end_date": "2025-06-30T09:00:00+02:00",
+    "updated_date": "2025-06-30T08:06:00+02:00",
+    "value": 3014.31,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T09:00:00+02:00",
+    "end_date": "2025-06-30T10:00:00+02:00",
+    "updated_date": "2025-06-30T08:06:00+02:00",
+    "value": 1386.2,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T10:00:00+02:00",
+    "end_date": "2025-06-30T11:00:00+02:00",
+    "updated_date": "2025-06-30T08:06:00+02:00",
+    "value": 912.9,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T11:00:00+02:00",
+    "end_date": "2025-06-30T12:00:00+02:00",
+    "updated_date": "2025-06-30T08:06:00+02:00",
+    "value": 782.83,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T12:00:00+02:00",
+    "end_date": "2025-06-30T13:00:00+02:00",
+    "updated_date": "2025-06-30T08:06:00+02:00",
+    "value": 705.65,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T13:00:00+02:00",
+    "end_date": "2025-06-30T14:00:00+02:00",
+    "updated_date": "2025-06-30T08:06:00+02:00",
+    "value": 650.57,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T14:00:00+02:00",
+    "end_date": "2025-06-30T15:00:00+02:00",
+    "updated_date": "2025-06-30T08:06:00+02:00",
+    "value": 675.87,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T15:00:00+02:00",
+    "end_date": "2025-06-30T16:00:00+02:00",
+    "updated_date": "2025-06-30T08:06:00+02:00",
+    "value": 752.72,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T16:00:00+02:00",
+    "end_date": "2025-06-30T17:00:00+02:00",
+    "updated_date": "2025-06-30T08:06:00+02:00",
+    "value": 824.28,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T17:00:00+02:00",
+    "end_date": "2025-06-30T18:00:00+02:00",
+    "updated_date": "2025-06-30T08:06:00+02:00",
+    "value": 848.73,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T18:00:00+02:00",
+    "end_date": "2025-06-30T19:00:00+02:00",
+    "updated_date": "2025-06-30T08:06:00+02:00",
+    "value": 826.21,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T19:00:00+02:00",
+    "end_date": "2025-06-30T20:00:00+02:00",
+    "updated_date": "2025-06-30T08:06:00+02:00",
+    "value": 878.81,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T20:00:00+02:00",
+    "end_date": "2025-06-30T21:00:00+02:00",
+    "updated_date": "2025-06-30T08:06:00+02:00",
+    "value": 945.99,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T21:00:00+02:00",
+    "end_date": "2025-06-30T22:00:00+02:00",
+    "updated_date": "2025-06-30T08:06:00+02:00",
+    "value": 1075.8,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T22:00:00+02:00",
+    "end_date": "2025-06-30T23:00:00+02:00",
+    "updated_date": "2025-06-30T08:06:00+02:00",
+    "value": 1281.95,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T23:00:00+02:00",
+    "end_date": "2025-07-01T00:00:00+02:00",
+    "updated_date": "2025-06-30T08:06:00+02:00",
+    "value": 1483.03,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T00:00:00+02:00",
+    "end_date": "2025-06-30T01:00:00+02:00",
+    "updated_date": "2025-06-30T08:07:00+02:00",
+    "value": 4765.87,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T01:00:00+02:00",
+    "end_date": "2025-06-30T02:00:00+02:00",
+    "updated_date": "2025-06-30T08:07:00+02:00",
+    "value": 4818.07,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T02:00:00+02:00",
+    "end_date": "2025-06-30T03:00:00+02:00",
+    "updated_date": "2025-06-30T08:07:00+02:00",
+    "value": 4611.91,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T03:00:00+02:00",
+    "end_date": "2025-06-30T04:00:00+02:00",
+    "updated_date": "2025-06-30T08:07:00+02:00",
+    "value": 4317.57,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T04:00:00+02:00",
+    "end_date": "2025-06-30T05:00:00+02:00",
+    "updated_date": "2025-06-30T08:07:00+02:00",
+    "value": 3998.06,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T05:00:00+02:00",
+    "end_date": "2025-06-30T06:00:00+02:00",
+    "updated_date": "2025-06-30T08:07:00+02:00",
+    "value": 3804.91,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T06:00:00+02:00",
+    "end_date": "2025-06-30T07:00:00+02:00",
+    "updated_date": "2025-06-30T08:07:00+02:00",
+    "value": 3619.8,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T07:00:00+02:00",
+    "end_date": "2025-06-30T08:00:00+02:00",
+    "updated_date": "2025-06-30T08:07:00+02:00",
+    "value": 3178.74,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T08:00:00+02:00",
+    "end_date": "2025-06-30T09:00:00+02:00",
+    "updated_date": "2025-06-30T08:07:00+02:00",
+    "value": 2681.36,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T09:00:00+02:00",
+    "end_date": "2025-06-30T10:00:00+02:00",
+    "updated_date": "2025-06-30T08:07:00+02:00",
+    "value": 1191.9,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T10:00:00+02:00",
+    "end_date": "2025-06-30T11:00:00+02:00",
+    "updated_date": "2025-06-30T09:36:00+02:00",
+    "value": 930.16,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T11:00:00+02:00",
+    "end_date": "2025-06-30T12:00:00+02:00",
+    "updated_date": "2025-06-30T09:36:00+02:00",
+    "value": 796.96,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T12:00:00+02:00",
+    "end_date": "2025-06-30T13:00:00+02:00",
+    "updated_date": "2025-06-30T09:36:00+02:00",
+    "value": 729.62,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T13:00:00+02:00",
+    "end_date": "2025-06-30T14:00:00+02:00",
+    "updated_date": "2025-06-30T09:36:00+02:00",
+    "value": 668.36,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T14:00:00+02:00",
+    "end_date": "2025-06-30T15:00:00+02:00",
+    "updated_date": "2025-06-30T09:36:00+02:00",
+    "value": 686.81,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T15:00:00+02:00",
+    "end_date": "2025-06-30T16:00:00+02:00",
+    "updated_date": "2025-06-30T09:36:00+02:00",
+    "value": 753.05,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T16:00:00+02:00",
+    "end_date": "2025-06-30T17:00:00+02:00",
+    "updated_date": "2025-06-30T09:36:00+02:00",
+    "value": 805.92,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T17:00:00+02:00",
+    "end_date": "2025-06-30T18:00:00+02:00",
+    "updated_date": "2025-06-30T09:36:00+02:00",
+    "value": 812.84,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T18:00:00+02:00",
+    "end_date": "2025-06-30T19:00:00+02:00",
+    "updated_date": "2025-06-30T09:36:00+02:00",
+    "value": 696.59,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T19:00:00+02:00",
+    "end_date": "2025-06-30T20:00:00+02:00",
+    "updated_date": "2025-06-30T09:36:00+02:00",
+    "value": 770.44,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T20:00:00+02:00",
+    "end_date": "2025-06-30T21:00:00+02:00",
+    "updated_date": "2025-06-30T09:36:00+02:00",
+    "value": 961.8,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T21:00:00+02:00",
+    "end_date": "2025-06-30T22:00:00+02:00",
+    "updated_date": "2025-06-30T09:36:00+02:00",
+    "value": 1132.56,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T22:00:00+02:00",
+    "end_date": "2025-06-30T23:00:00+02:00",
+    "updated_date": "2025-06-30T09:36:00+02:00",
+    "value": 1334.53,
+    "production_type": "WIND_ONSHORE"
+  },
+  {
+    "start_date": "2025-06-30T23:00:00+02:00",
+    "end_date": "2025-07-01T00:00:00+02:00",
+    "updated_date": "2025-06-30T09:36:00+02:00",
+    "value": 1434.05,
     "production_type": "WIND_ONSHORE"
   }
 ]

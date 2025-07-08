@@ -3,14 +3,22 @@ import matplotlib.pyplot as plt
 from pathlib import Path
 from matplotlib.dates import DateFormatter
 import numpy as np
+from datetime import datetime
+import re
 
 def load_latest_cdm_file(cdm_dir):
-    csv_files = list(cdm_dir.glob("*.csv"))
+    csv_files = list(cdm_dir.glob("combined_forecast_actual_*.csv"))
     if not csv_files:
         raise FileNotFoundError("No CDM CSV files found.")
 
-    # Find the latest file by modification time
-    latest_file = max(csv_files, key=lambda f: f.stat().st_mtime)
+    def extract_date(file):
+        match = re.search(r"(\d{4}-\d{2}-\d{2})", file.name)
+        if match:
+            return datetime.strptime(match.group(1), "%Y-%m-%d")
+        return datetime.min
+
+    latest_file = max(csv_files, key=extract_date)
+    date_str = extract_date(latest_file).strftime("%Y-%m-%d")
     print(f"📄 Loading latest file: {latest_file.name}")
 
     df = pd.read_csv(latest_file, parse_dates=["start_date"])
@@ -21,20 +29,18 @@ def load_latest_cdm_file(cdm_dir):
     df.sort_values("start_date", inplace=True)
     df = df.drop_duplicates(subset=["start_date", "production_type"], keep="last")
 
-    return df
+    return df, date_str
 
-def plot_forecast_vs_actual(df, output_dir):
+def plot_forecast_vs_actual(df, output_dir, date_str):
     output_dir.mkdir(parents=True, exist_ok=True)
-
-    latest_date = df["start_date"].dt.date.max().strftime("%Y-%m-%d")
-    time_format = DateFormatter('%I %p')  # Format as hour + AM/PM
+    time_format = DateFormatter('%I %p')
 
     for prod_type in df["production_type"].unique():
         subset = df[df["production_type"] == prod_type].sort_values("start_date")
         plt.figure(figsize=(12, 6))
         plt.plot(subset["start_date"], subset["forecast_value"], label="Forecast", linestyle="--")
         plt.plot(subset["start_date"], subset["actual_value"], label="Actual", linestyle="-")
-        plt.title(f"{prod_type} Forecast vs Actual ({latest_date})")
+        plt.title(f"{prod_type} Forecast vs Actual ({date_str})")
         plt.xlabel("Time")
         plt.ylabel("MW")
         plt.gca().xaxis.set_major_formatter(time_format)
@@ -45,23 +51,20 @@ def plot_forecast_vs_actual(df, output_dir):
         plt.savefig(file_path)
         plt.close()
 
-def plot_total_renewables(df, output_dir):
+def plot_total_renewables(df, output_dir, date_str):
     output_dir.mkdir(parents=True, exist_ok=True)
-
-    # Aggregate forecast and actual values while keeping NaN where all values are missing
     grouped = df.groupby("start_date").agg({
-    "forecast_value": lambda x: x.sum() if x.notna().any() else np.nan,
-    "actual_value":   lambda x: x.sum() if x.notna().any() else np.nan,
+        "forecast_value": lambda x: x.sum() if x.notna().any() else np.nan,
+        "actual_value":   lambda x: x.sum() if x.notna().any() else np.nan,
     }).reset_index()
 
     grouped = grouped.sort_values("start_date")
-    latest_date = grouped["start_date"].dt.date.max().strftime("%Y-%m-%d")
     time_format = DateFormatter('%I %p')
 
     plt.figure(figsize=(12, 6))
     plt.plot(grouped["start_date"], grouped["forecast_value"], label="Total Forecast", linestyle="--")
     plt.plot(grouped["start_date"], grouped["actual_value"], label="Total Actual", linestyle="-")
-    plt.title(f"Total Renewables Forecast vs Actual ({latest_date})")
+    plt.title(f"Total Renewables Forecast vs Actual ({date_str})")
     plt.xlabel("Time")
     plt.ylabel("MW")
     plt.gca().xaxis.set_major_formatter(time_format)
@@ -72,7 +75,7 @@ def plot_total_renewables(df, output_dir):
     plt.savefig(file_path)
     plt.close()
 
-def plot_forecast_error_over_time(df, chart_dir):
+def plot_forecast_error_over_time(df, chart_dir, date_str):
     chart_dir.mkdir(parents=True, exist_ok=True)
 
     df = df.copy()
@@ -84,9 +87,6 @@ def plot_forecast_error_over_time(df, chart_dir):
         "pct_error": "mean",
         "mw_delta": "mean"
     }).reset_index()
-
-    unique_dates = df["start_date"].dt.date.unique()
-    date_str = unique_dates[0].strftime("%Y-%m-%d") if len(unique_dates) == 1 else "Multiple Dates"
 
     plt.figure(figsize=(14, 7))
     colors = ["green" if x < 0 else "red" for x in grouped["pct_error"]]
@@ -104,7 +104,6 @@ def plot_forecast_error_over_time(df, chart_dir):
                  fontsize=9,
                  color="black")
 
-    # Add legend manually
     from matplotlib.patches import Patch
     legend_elements = [
         Patch(facecolor='red', label='Actual < Forecast (Underproduce)'),
@@ -122,7 +121,7 @@ if __name__ == "__main__":
     cdm_dir = base_path / "data" / "CDM"
     chart_dir = base_path / "charts"
 
-    df = load_latest_cdm_file(cdm_dir)
-    plot_forecast_vs_actual(df, chart_dir)
-    plot_total_renewables(df, chart_dir)
-    plot_forecast_error_over_time(df, chart_dir)
+    df, date_str = load_latest_cdm_file(cdm_dir)
+    plot_forecast_vs_actual(df, chart_dir, date_str)
+    plot_total_renewables(df, chart_dir, date_str)
+    plot_forecast_error_over_time(df, chart_dir, date_str)
