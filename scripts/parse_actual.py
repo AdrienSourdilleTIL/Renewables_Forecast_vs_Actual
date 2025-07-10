@@ -4,6 +4,7 @@ from datetime import datetime
 
 def get_latest_actual_file(raw_dir):
     files = list(raw_dir.glob("actual_*.json"))
+    print(f"Found actual files: {[str(f) for f in files]}")  # Debug print
     if not files:
         raise FileNotFoundError("No actual files found.")
     
@@ -14,6 +15,7 @@ def get_latest_actual_file(raw_dir):
             return datetime.min
 
     latest_file = max(files, key=extract_date)
+    print(f"Latest actual file selected: {latest_file}")  # Debug print
     return latest_file
 
 def extract_and_save_actual(data, production_type, output_dir):
@@ -35,6 +37,7 @@ def extract_and_save_actual(data, production_type, output_dir):
     output_file = output_dir / f"{production_type.lower()}_actual_{date_str}.json"
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(filtered_entries, f, ensure_ascii=False, indent=2)
+    print(f"Saved {production_type} actual data to: {output_file}")  # Debug print
 
 if __name__ == "__main__":
     base_path = Path(__file__).resolve().parent.parent
@@ -43,7 +46,7 @@ if __name__ == "__main__":
     latest_file = get_latest_actual_file(raw_dir)
     with open(latest_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
-        print(f'latest_file: {latest_file}')
+        print(f'Loaded data from: {latest_file}')  # Debug print
 
     mapping = {
         'WIND_OFFSHORE': base_path / "data" / "Base" / "wind_offshore" / "actual",

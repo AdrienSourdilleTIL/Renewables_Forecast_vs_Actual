@@ -30,8 +30,8 @@ def get_renewable_forecast(token):
         'Accept': 'application/json',
         'Content-Type': 'application/json'
     }
-    start_date = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0) + timedelta(days=-2)
-    end_date = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0) + timedelta(days=0)
+    start_date = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0) + timedelta(days=-1)
+    end_date = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0) + timedelta(days=1)
 
     params = {
         'start_date': start_date.isoformat(),
@@ -55,7 +55,10 @@ if __name__ == "__main__":
     forecast_dir.mkdir(parents=True, exist_ok=True)
 
     date_str = datetime.now().strftime("%Y-%m-%d")
-    output_path = forecast_dir / f"forecast_2025-06-25.json"
+    output_path = forecast_dir / f"forecast_{date_str}.json"
+
+    print(f"Working directory: {Path().resolve()}")
+    print(f"Output path: {output_path.resolve()}")
 
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(forecast_data, f, ensure_ascii=False, indent=2)
