@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 import pandas as pd
-from datetime import datetime
+from datetime import datetime, timedelta
 
 def load_json_to_df(file_path, value_column_name):
     print(f"Loading file: {file_path}")  # Debug
@@ -59,5 +59,5 @@ def combine_forecast_actual(date_str, base_path):
 
 if __name__ == "__main__":
     base_path = Path(__file__).resolve().parent.parent
-    date_str = datetime.now().strftime("%Y-%m-%d")  # adjust if needed
+    date_str = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
     combine_forecast_actual(date_str, base_path)
