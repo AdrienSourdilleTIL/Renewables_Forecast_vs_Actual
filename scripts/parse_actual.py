@@ -4,7 +4,6 @@ from datetime import datetime
 
 def get_latest_actual_file(raw_dir):
     files = list(raw_dir.glob("actual_*.json"))
-    print(f"Found actual files: {[str(f) for f in files]}")  # Debug print
     if not files:
         raise FileNotFoundError("No actual files found.")
     

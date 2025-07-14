@@ -1,10 +1,9 @@
 import json
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timedelta
 
 def get_latest_forecast_file(raw_dir):
     files = list(raw_dir.glob("forecast_*.json"))
-    print(f"Found forecast files: {[str(f) for f in files]}")  # Debug print
     if not files:
         raise FileNotFoundError("No forecast files found.")
     
@@ -15,7 +14,6 @@ def get_latest_forecast_file(raw_dir):
             return datetime.min
 
     latest_file = max(files, key=extract_date)
-    print(f"Latest forecast file selected: {latest_file}")  # Debug print
     return latest_file
 
 def extract_and_save(data, production_type, output_dir):
@@ -33,7 +31,7 @@ def extract_and_save(data, production_type, output_dir):
     ]
 
     output_dir.mkdir(parents=True, exist_ok=True)
-    date_str = datetime.now().strftime("%Y-%m-%d")
+    date_str = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
     output_file = output_dir / f"{production_type.lower()}_forecast_{date_str}.json"
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(filtered_entries, f, ensure_ascii=False, indent=2)

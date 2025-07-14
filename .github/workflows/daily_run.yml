@@ -60,6 +60,7 @@ jobs:
           git add data/Raw/Actual/*
           git add data/Raw/Forecast/*
           git add data/CDM/*
+          git add charts/*
           git add readme.md
 
       - name: Commit and push updated charts and readme
