@@ -59,6 +59,12 @@ jobs:
         run: |
           git add data/Raw/Actual/*
           git add data/Raw/Forecast/*
+          git add data/Base/solar/actual/*
+          git add data/Base/solar/forecast/*
+          git add data/Base/wind_offshore/actual/*
+          git add data/Base/wind_offshore/forecast/*
+          git add data/Base/wind_onshore/actual/*
+          git add data/Base/wind_onshore/forecast/*
           git add data/CDM/*
           git add charts/*
           git add readme.md
