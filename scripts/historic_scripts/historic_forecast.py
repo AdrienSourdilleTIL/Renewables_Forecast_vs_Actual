@@ -50,8 +50,8 @@ if __name__ == "__main__":
     forecast_dir = base_path / "data" / "Raw" / "Forecast"
     forecast_dir.mkdir(parents=True, exist_ok=True)
 
-    current_date = datetime(2025, 7, 6)
-    end_date = datetime(2025, 7, 10)  # exclusive upper bound
+    current_date = datetime(2025, 7, 10)
+    end_date = datetime(2025, 7, 11)  # exclusive upper bound
 
     while current_date < end_date:
         try:
