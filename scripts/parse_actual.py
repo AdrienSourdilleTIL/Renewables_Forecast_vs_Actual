@@ -1,6 +1,6 @@
 import json
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timedelta
 
 def get_latest_actual_file(raw_dir):
     files = list(raw_dir.glob("actual_*.json"))
@@ -32,7 +32,7 @@ def extract_and_save_actual(data, production_type, output_dir):
     ]
 
     output_dir.mkdir(parents=True, exist_ok=True)
-    date_str = datetime.now().strftime("%Y-%m-%d")
+    date_str = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
     output_file = output_dir / f"{production_type.lower()}_actual_{date_str}.json"
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(filtered_entries, f, ensure_ascii=False, indent=2)
