@@ -2,7 +2,7 @@ name: Daily Renewables Data Pipeline
 
 on:
   schedule:
-    - cron: '0 22 * * *'  # Runs every day at 22:00 UTC
+    - cron: '0 23 * * *'  # Runs every day at 23:00 UTC
   workflow_dispatch:
 
 permissions:
