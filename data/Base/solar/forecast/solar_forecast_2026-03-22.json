@@ -1,0 +1,674 @@
+[
+  {
+    "start_date": "2026-03-22T00:00:00+01:00",
+    "end_date": "2026-03-22T01:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-22T01:00:00+01:00",
+    "end_date": "2026-03-22T02:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-22T02:00:00+01:00",
+    "end_date": "2026-03-22T03:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-22T03:00:00+01:00",
+    "end_date": "2026-03-22T04:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-22T04:00:00+01:00",
+    "end_date": "2026-03-22T05:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-22T05:00:00+01:00",
+    "end_date": "2026-03-22T06:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-22T06:00:00+01:00",
+    "end_date": "2026-03-22T07:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-22T07:00:00+01:00",
+    "end_date": "2026-03-22T08:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-22T08:00:00+01:00",
+    "end_date": "2026-03-22T09:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-22T09:00:00+01:00",
+    "end_date": "2026-03-22T10:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-22T10:00:00+01:00",
+    "end_date": "2026-03-22T11:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-22T11:00:00+01:00",
+    "end_date": "2026-03-22T12:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-22T12:00:00+01:00",
+    "end_date": "2026-03-22T13:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-22T13:00:00+01:00",
+    "end_date": "2026-03-22T14:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-22T14:00:00+01:00",
+    "end_date": "2026-03-22T15:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-22T15:00:00+01:00",
+    "end_date": "2026-03-22T16:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-22T16:00:00+01:00",
+    "end_date": "2026-03-22T17:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-22T17:00:00+01:00",
+    "end_date": "2026-03-22T18:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-22T18:00:00+01:00",
+    "end_date": "2026-03-22T19:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-22T19:00:00+01:00",
+    "end_date": "2026-03-22T20:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-22T20:00:00+01:00",
+    "end_date": "2026-03-22T21:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-22T21:00:00+01:00",
+    "end_date": "2026-03-22T22:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-22T22:00:00+01:00",
+    "end_date": "2026-03-22T23:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-22T23:00:00+01:00",
+    "end_date": "2026-03-23T00:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-23T00:00:00+01:00",
+    "end_date": "2026-03-23T01:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-23T01:00:00+01:00",
+    "end_date": "2026-03-23T02:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-23T02:00:00+01:00",
+    "end_date": "2026-03-23T03:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 2,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-23T03:00:00+01:00",
+    "end_date": "2026-03-23T04:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 66,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-23T04:00:00+01:00",
+    "end_date": "2026-03-23T05:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 215,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-23T05:00:00+01:00",
+    "end_date": "2026-03-23T06:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 444,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-23T06:00:00+01:00",
+    "end_date": "2026-03-23T07:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 726,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-23T07:00:00+01:00",
+    "end_date": "2026-03-23T08:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 1453,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-23T08:00:00+01:00",
+    "end_date": "2026-03-23T09:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 2232,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-23T09:00:00+01:00",
+    "end_date": "2026-03-23T10:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 3394,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-23T10:00:00+01:00",
+    "end_date": "2026-03-23T11:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 4272,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-23T11:00:00+01:00",
+    "end_date": "2026-03-23T12:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 5238,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-23T12:00:00+01:00",
+    "end_date": "2026-03-23T13:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 6223,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-23T13:00:00+01:00",
+    "end_date": "2026-03-23T14:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 7564,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-23T14:00:00+01:00",
+    "end_date": "2026-03-23T15:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 8438,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-23T15:00:00+01:00",
+    "end_date": "2026-03-23T16:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 9296,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-23T16:00:00+01:00",
+    "end_date": "2026-03-23T17:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 7768,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-23T17:00:00+01:00",
+    "end_date": "2026-03-23T18:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 8523,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-23T18:00:00+01:00",
+    "end_date": "2026-03-23T19:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 9116,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-23T19:00:00+01:00",
+    "end_date": "2026-03-23T20:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 9551,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-23T20:00:00+01:00",
+    "end_date": "2026-03-23T21:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 10009,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-23T21:00:00+01:00",
+    "end_date": "2026-03-23T22:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 10320,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-23T22:00:00+01:00",
+    "end_date": "2026-03-23T23:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 10632,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-23T23:00:00+01:00",
+    "end_date": "2026-03-24T00:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 10729,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-24T00:00:00+01:00",
+    "end_date": "2026-03-24T01:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 10914,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-24T01:00:00+01:00",
+    "end_date": "2026-03-24T02:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 10987,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-24T02:00:00+01:00",
+    "end_date": "2026-03-24T03:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 11082,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-24T03:00:00+01:00",
+    "end_date": "2026-03-24T04:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 10995,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-24T04:00:00+01:00",
+    "end_date": "2026-03-24T05:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 10951,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-24T05:00:00+01:00",
+    "end_date": "2026-03-24T06:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 10824,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-24T06:00:00+01:00",
+    "end_date": "2026-03-24T07:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 10701,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-24T07:00:00+01:00",
+    "end_date": "2026-03-24T08:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 10423,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-24T08:00:00+01:00",
+    "end_date": "2026-03-24T09:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 10108,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-24T09:00:00+01:00",
+    "end_date": "2026-03-24T10:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 9763,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-24T10:00:00+01:00",
+    "end_date": "2026-03-24T11:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 9447,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-24T11:00:00+01:00",
+    "end_date": "2026-03-24T12:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 9026,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-24T12:00:00+01:00",
+    "end_date": "2026-03-24T13:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 8599,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-24T13:00:00+01:00",
+    "end_date": "2026-03-24T14:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 10564,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-24T14:00:00+01:00",
+    "end_date": "2026-03-24T15:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 9946,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-24T15:00:00+01:00",
+    "end_date": "2026-03-24T16:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 9284,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-24T16:00:00+01:00",
+    "end_date": "2026-03-24T17:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 8594,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-24T17:00:00+01:00",
+    "end_date": "2026-03-24T18:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 7823,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-24T18:00:00+01:00",
+    "end_date": "2026-03-24T19:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 7117,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-24T19:00:00+01:00",
+    "end_date": "2026-03-24T20:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 6405,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-24T20:00:00+01:00",
+    "end_date": "2026-03-24T21:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 5616,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-24T21:00:00+01:00",
+    "end_date": "2026-03-24T22:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 4617,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-24T22:00:00+01:00",
+    "end_date": "2026-03-24T23:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 3850,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-24T23:00:00+01:00",
+    "end_date": "2026-03-25T00:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 3151,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-25T00:00:00+01:00",
+    "end_date": "2026-03-25T01:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 2266,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-25T01:00:00+01:00",
+    "end_date": "2026-03-25T02:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 1579,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-25T02:00:00+01:00",
+    "end_date": "2026-03-25T03:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 952,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-25T03:00:00+01:00",
+    "end_date": "2026-03-25T04:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 532,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-25T04:00:00+01:00",
+    "end_date": "2026-03-25T05:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 145,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-25T05:00:00+01:00",
+    "end_date": "2026-03-25T06:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 3,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-25T06:00:00+01:00",
+    "end_date": "2026-03-25T07:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-25T07:00:00+01:00",
+    "end_date": "2026-03-25T08:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-25T08:00:00+01:00",
+    "end_date": "2026-03-25T09:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-25T09:00:00+01:00",
+    "end_date": "2026-03-25T10:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-25T10:00:00+01:00",
+    "end_date": "2026-03-25T11:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-25T11:00:00+01:00",
+    "end_date": "2026-03-25T12:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-25T12:00:00+01:00",
+    "end_date": "2026-03-25T13:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-25T13:00:00+01:00",
+    "end_date": "2026-03-25T14:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-25T14:00:00+01:00",
+    "end_date": "2026-03-25T15:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-25T15:00:00+01:00",
+    "end_date": "2026-03-25T16:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-25T16:00:00+01:00",
+    "end_date": "2026-03-25T17:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-25T17:00:00+01:00",
+    "end_date": "2026-03-25T18:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-25T18:00:00+01:00",
+    "end_date": "2026-03-25T19:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-25T19:00:00+01:00",
+    "end_date": "2026-03-25T20:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-25T20:00:00+01:00",
+    "end_date": "2026-03-25T21:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-25T21:00:00+01:00",
+    "end_date": "2026-03-25T22:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-25T22:00:00+01:00",
+    "end_date": "2026-03-25T23:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  },
+  {
+    "start_date": "2026-03-25T23:00:00+01:00",
+    "end_date": "2026-03-26T00:00:00+01:00",
+    "updated_date": "2026-03-21T16:15:00+01:00",
+    "value": 0,
+    "production_type": "SOLAR"
+  }
+]
